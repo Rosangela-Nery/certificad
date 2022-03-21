@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster&family=Roboto&family=Sansita+Swashed:wght@300&display=swap');
+
+body {
+  background: linear-gradient(236.85deg, #F4B5BE 27.26%, #843B46 96.03%);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background: #ffb6c1;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 20px  black;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 150px;
+  box-shadow: 0px 4px 8px black;
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #C4717E;
+  border-radius: 16px;
+  border: 4px solid #C4717E;
+  box-shadow: 2px 2px 10px black;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #ffc0cb 27.49%, #C4717E 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 0px 1px 10px black;
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: nome;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: 1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #470347 27.26%, #B43EB4 96.03%);
+}
+
+.dark .container {
+  background: #291429;
+  color: #f8f8ff;
+  box-shadow: 4px 4px 20px  black;
+}
+
+.dark .projetos {
+  color: black;
+  background: linear-gradient(230.65deg, #740374 27.49%, #F897F8 83.19%);
+}
+
+.dark .tema button {
+  background: #5D125D;
+  color: #ffffff;
+  border: 2px solid #5D125D;
+}
